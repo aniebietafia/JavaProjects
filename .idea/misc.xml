@@ -6,7 +6,14 @@
       <list>
         <option value="$PROJECT_DIR$/CalcEngine/pom.xml" />
         <option value="$PROJECT_DIR$/SimpleTasks/StringManipulation/pom.xml" />
+        <option value="$PROJECT_DIR$/CalcEngine1/pom.xml" />
+        <option value="$PROJECT_DIR$/CalcEngine2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/CalcEngine1/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
