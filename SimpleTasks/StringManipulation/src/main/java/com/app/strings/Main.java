@@ -22,10 +22,11 @@ public class Main {
         String[] lines = input.split("\n");
 
         for (String line : lines) {
+
             String[] cityAndCountry = line.split(",");
 
-            String city = capitalize(cityAndCountry[0].trim());
-            String country = capitalize(cityAndCountry[1].trim());
+            String city = new CapitalizeLetter(cityAndCountry[0].trim()).capitalizeLetter();
+            String country = new CapitalizeLetter(cityAndCountry[1].trim()).capitalizeLetter();
 
             output.append(city).append(" is the capital of ").append(country).append("; ");
         }
@@ -35,11 +36,4 @@ public class Main {
         return output.toString();
     }
 
-    public static String capitalize(String str) {
-        if (str == null || str.isEmpty()) {
-            return str;
-        }
-
-        return str.substring(0, 1).toUpperCase() + str.substring(1);
-    }
 }
