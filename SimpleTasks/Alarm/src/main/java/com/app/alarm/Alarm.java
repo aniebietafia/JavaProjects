@@ -3,9 +3,9 @@ package com.app.alarm;
 import java.time.LocalDateTime;
 
 class Alarm {
-    boolean active;
-    final String message;
-    LocalDateTime snoozeUntil;
+    private boolean active;
+    private final String message;
+    private LocalDateTime snoozeUntil;
 
     Alarm(String message) {
         this.message = message;
@@ -25,6 +25,7 @@ class Alarm {
     }
 
     void snooze() {
+        if (active)
         snoozeUntil = LocalDateTime.now().plusMinutes(5);
     }
 
@@ -46,14 +47,6 @@ class Alarm {
 
     void sendReport() {
         System.out.println(getReport(true));
-    }
-
-    public static void main(String[] args) throws InterruptedException {
-        Alarm alarm = new Alarm("Temperature too high");
-        alarm.turnOn();
-        alarm.snooze();
-        Thread.sleep(60000 * 6);
-        alarm.sendReport();
     }
 }
 
