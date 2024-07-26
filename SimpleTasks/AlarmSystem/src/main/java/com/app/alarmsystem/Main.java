@@ -1,4 +1,4 @@
-package com.app.alarm;
+package com.app.alarmsystem;
 
 public class Main {
     public static void main(String[] args) {

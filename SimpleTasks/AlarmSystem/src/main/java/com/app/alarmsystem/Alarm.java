@@ -1,8 +1,8 @@
-package com.app.alarm;
+package com.app.alarmsystem;
 
 import java.time.LocalDateTime;
 
-class Alarm {
+public class Alarm {
     private boolean active;
     private final String message;
     private LocalDateTime snoozeUntil;
@@ -26,7 +26,7 @@ class Alarm {
 
     void snooze() {
         if (active)
-        snoozeUntil = LocalDateTime.now().plusMinutes(5);
+            snoozeUntil = LocalDateTime.now().plusMinutes(5);
     }
 
     boolean isSnoozing() {
@@ -39,7 +39,7 @@ class Alarm {
 
     public String getReport(boolean uppercase) {
         if (active && !isSnoozing()) {
-           return uppercase ? message.toUpperCase() : message;
+            return uppercase ? message.toUpperCase() : message;
         } else {
             return "";
         }
@@ -49,4 +49,3 @@ class Alarm {
         System.out.println(getReport(true));
     }
 }
-
