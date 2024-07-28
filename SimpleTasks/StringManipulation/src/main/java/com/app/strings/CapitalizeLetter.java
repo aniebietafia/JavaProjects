@@ -1,5 +1,8 @@
 package com.app.strings;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class CapitalizeLetter {
     private final String str;
 
@@ -8,9 +11,16 @@ public class CapitalizeLetter {
     }
 
     public String capitalizeLetter() {
+        ArrayList<String> stringList = new ArrayList<>();
         if (this.str == null || this.str.isEmpty()) {
             return this.str;
         }
-        return this.str.substring(0, 1).toUpperCase() + this.str.substring(1);
+        String[] strings = this.str.split(" ");
+        for (String string : strings) {
+            String capitalizedWord = string.substring(0, 1).toUpperCase() + string.substring(1);
+            stringList.add(capitalizedWord);
+
+        }
+        return String.join(" ", stringList);
     }
 }
