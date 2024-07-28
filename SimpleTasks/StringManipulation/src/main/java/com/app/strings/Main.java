@@ -11,6 +11,7 @@ public class Main {
                         london, england
                         tokyo, japan
                         abuja, nigeria
+                        ontario, canada
                         """;
 
         String output = stringManipulation(userInput);
@@ -28,7 +29,7 @@ public class Main {
             String city = new CapitalizeLetter(cityAndCountry[0].trim()).capitalizeLetter();
             String country = new CapitalizeLetter(cityAndCountry[1].trim()).capitalizeLetter();
 
-            output.append(city).append(" is the capital of ").append(country).append("; ");
+            output.append(city).append(" is the capital of ").append(country).append("; ").append("\n");
         }
 
         if (!output.isEmpty()) output.setLength(output.toString().trim().length() - 1);
