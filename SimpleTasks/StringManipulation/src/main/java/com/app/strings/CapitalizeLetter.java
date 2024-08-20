@@ -1,7 +1,6 @@
 package com.app.strings;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class CapitalizeLetter {
     private final String str;

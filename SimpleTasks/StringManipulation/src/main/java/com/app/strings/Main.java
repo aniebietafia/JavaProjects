@@ -14,6 +14,7 @@ public class Main {
                         ontario, canada
                         new delhi, india
                         sao tome, sao tome & principe
+                        pretoria, south africa
                         """;
 
         StringManipulation stringManipulation = new StringManipulation(userInput);
