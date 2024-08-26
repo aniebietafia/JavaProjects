@@ -52,11 +52,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.brints.courseinfo.cli.service" />
+      <recent name="com.brints.courseinfo.cli" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CourseRetriever" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.brints.courseinfo.cli.CourseRetriever" />
       <module name="course-info" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;Aniebiet Afia&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="sander-mak" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,7 +86,7 @@
       <updated>1724666806420</updated>
       <workItem from="1724666807716" duration="3609000" />
       <workItem from="1724674949054" duration="1027000" />
-      <workItem from="1724677394259" duration="2719000" />
+      <workItem from="1724677394259" duration="4821000" />
     </task>
     <servers />
   </component>
