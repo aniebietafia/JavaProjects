@@ -29,6 +29,6 @@ public class CourseRetriever {
         CourseRetrievalService courseRetrievalService = new CourseRetrievalService();
 
         List<BrintsCourses> coursesToStore = courseRetrievalService.getCoursesFor(authorId);
-        LOG.info("Retrieved the following courses {}", coursesToStore);
+        LOG.info("Retrieved the following {} courses {}", coursesToStore.size(), coursesToStore);
     }
 }
