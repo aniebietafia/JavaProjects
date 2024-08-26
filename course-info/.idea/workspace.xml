@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af459950-affe-45a8-8b63-8432078dc5d6" name="Changes" comment="" />
+    <list default="true" id="af459950-affe-45a8-8b63-8432078dc5d6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/brints/courseinfo/cli/service/BrintsCoursesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brints/courseinfo/cli/service/BrintsCoursesTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +17,7 @@
       <list>
         <option value="Class" />
         <option value="Record" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,7 +40,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.CourseRetriever.executor": "Run",
+    "JUnit.BrintsCoursesTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "<unknown>",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -58,8 +64,14 @@
       <recent name="com.brints.courseinfo.cli.service" />
       <recent name="com.brints.courseinfo.cli" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.brints.courseinfo.cli.service" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BrintsCoursesTest">
     <configuration name="CourseRetriever" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.brints.courseinfo.cli.CourseRetriever" />
       <module name="course-info" />
@@ -68,6 +80,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BrintsCoursesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brints.courseinfo.cli.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brints.courseinfo.cli.service" />
+      <option name="MAIN_CLASS_NAME" value="com.brints.courseinfo.cli.service.BrintsCoursesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CourseRetriever" />
+      <item itemvalue="JUnit.BrintsCoursesTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BrintsCoursesTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -87,7 +123,7 @@
       <updated>1724666806420</updated>
       <workItem from="1724666807716" duration="3609000" />
       <workItem from="1724674949054" duration="1027000" />
-      <workItem from="1724677394259" duration="7851000" />
+      <workItem from="1724677394259" duration="10202000" />
     </task>
     <servers />
   </component>
