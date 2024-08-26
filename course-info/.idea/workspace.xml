@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af459950-affe-45a8-8b63-8432078dc5d6" name="Changes" comment="" />
+    <list default="true" id="af459950-affe-45a8-8b63-8432078dc5d6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -86,7 +89,7 @@
       <updated>1724666806420</updated>
       <workItem from="1724666807716" duration="3609000" />
       <workItem from="1724674949054" duration="1027000" />
-      <workItem from="1724677394259" duration="4821000" />
+      <workItem from="1724677394259" duration="6198000" />
     </task>
     <servers />
   </component>

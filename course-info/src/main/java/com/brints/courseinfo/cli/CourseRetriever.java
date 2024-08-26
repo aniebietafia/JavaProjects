@@ -1,8 +1,11 @@
 package com.brints.courseinfo.cli;
 
+import com.brints.courseinfo.cli.service.BrintsCourses;
 import com.brints.courseinfo.cli.service.CourseRetrievalService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.List;
 
 public class CourseRetriever {
     private static final Logger LOG = LoggerFactory.getLogger(CourseRetriever.class);
@@ -25,7 +28,7 @@ public class CourseRetriever {
         LOG.info("Retrieving courses for author {}", authorId);
         CourseRetrievalService courseRetrievalService = new CourseRetrievalService();
 
-        String coursesToStore = courseRetrievalService.getCoursesFor(authorId);
+        List<BrintsCourses> coursesToStore = courseRetrievalService.getCoursesFor(authorId);
         LOG.info("Retrieved the following courses {}", coursesToStore);
     }
 }
