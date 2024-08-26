@@ -37,7 +37,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.CourseRetriever.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "<unknown>",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,7 +80,7 @@
       <updated>1724666806420</updated>
       <workItem from="1724666807716" duration="3609000" />
       <workItem from="1724674949054" duration="1027000" />
-      <workItem from="1724677394259" duration="2410000" />
+      <workItem from="1724677394259" duration="2719000" />
     </task>
     <servers />
   </component>

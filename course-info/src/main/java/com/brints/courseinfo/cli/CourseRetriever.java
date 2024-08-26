@@ -16,11 +16,11 @@ public class CourseRetriever {
         try {
             retrieveCourses(args[0]);
         } catch (Exception e) {
-            LOG.error(e.getMessage());
+            LOG.error(e.getMessage(), e);
         }
     }
 
     private static void retrieveCourses(String authorId) {
-        System.out.println("Retrieving courses for author " + authorId);
+        LOG.info("Retrieving courses for author {}", authorId);
     }
 }
