@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af459950-affe-45a8-8b63-8432078dc5d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/brints/courseinfo/cli/service/BrintsCoursesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brints/courseinfo/cli/service/BrintsCoursesTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="af459950-affe-45a8-8b63-8432078dc5d6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +13,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -40,12 +46,16 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.CourseRetriever.executor": "Run",
-    "JUnit.BrintsCoursesTest.executor": "Run",
+    "Application.CourseServer.executor": "Run",
+    "JUnit.BrintsCoursesTest (1).executor": "Run",
+    "JUnit.BrintsCoursesTest.executor": "Coverage",
+    "JUnit.CourseStorageServiceTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/leebo/Desktop/Brints_Group/JavaProjects/course-info",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,21 +71,59 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.brints.courseinfo.repository" />
       <recent name="com.brints.courseinfo.cli.service" />
       <recent name="com.brints.courseinfo.cli" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leebo\Desktop\Brints_Group\JavaProjects\course-info\course-info-cli" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.brints.courseinfo.cli.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BrintsCoursesTest">
+  <component name="RunManager" selected="Application.CourseServer">
     <configuration name="CourseRetriever" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.brints.courseinfo.cli.CourseRetriever" />
-      <module name="course-info" />
+      <module name="course-info-cli" />
       <option name="PROGRAM_PARAMETERS" value="sander-mak" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brints.courseinfo.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.brints.courseinfo.server.CourseServer" />
+      <module name="course-info-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brints.courseinfo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrintsCoursesTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info-cli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brints.courseinfo.cli.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brints.courseinfo.cli.service" />
+      <option name="MAIN_CLASS_NAME" value="com.brints.courseinfo.cli.service.BrintsCoursesTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,12 +143,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CourseStorageServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course-info-cli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brints.courseinfo.cli.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brints.courseinfo.cli.service" />
+      <option name="MAIN_CLASS_NAME" value="com.brints.courseinfo.cli.service.CourseStorageServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CourseRetriever" />
+      <item itemvalue="Application.CourseServer" />
+      <item itemvalue="JUnit.BrintsCoursesTest (1)" />
       <item itemvalue="JUnit.BrintsCoursesTest" />
+      <item itemvalue="JUnit.CourseStorageServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CourseServer" />
+        <item itemvalue="JUnit.CourseStorageServiceTest" />
+        <item itemvalue="JUnit.BrintsCoursesTest (1)" />
         <item itemvalue="JUnit.BrintsCoursesTest" />
       </list>
     </recent_temporary>
@@ -124,10 +193,19 @@
       <workItem from="1724666807716" duration="3609000" />
       <workItem from="1724674949054" duration="1027000" />
       <workItem from="1724677394259" duration="10202000" />
+      <workItem from="1724944868984" duration="10514000" />
+      <workItem from="1725477357935" duration="197000" />
+      <workItem from="1725967054212" duration="2694000" />
+      <workItem from="1725973191749" duration="6217000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/course_info$BrintsCoursesTest.ic" NAME="BrintsCoursesTest Coverage Results" MODIFIED="1724946197076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.brints.courseinfo.cli.service.*</FILTER>
+    </SUITE>
   </component>
 </project>
