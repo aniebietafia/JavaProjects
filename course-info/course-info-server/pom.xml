@@ -12,8 +12,6 @@
     <artifactId>course-info-server</artifactId>
 
     <properties>
-        <slf4j.version>2.0.16</slf4j.version>
-        <jackson.version>2.17.2</jackson.version>
         <jersey.version>3.1.8</jersey.version>
     </properties>
 
@@ -61,6 +59,17 @@
             <artifactId>jersey-media-json-jackson</artifactId>
             <version>${jersey.version}</version>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jdk8</artifactId>
+            <version>2.17.2</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jul-to-slf4j</artifactId>
+            <version>2.0.16</version>
         </dependency>
     </dependencies>
 
