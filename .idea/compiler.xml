@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AdvancedClassesAndInterfaces" />
         <module name="CalcEngine" />
+        <module name="JavaAdvancedFeatures" />
         <module name="StringManipulation" />
       </profile>
     </annotationProcessing>
